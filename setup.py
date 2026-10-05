@@ -1,3 +1,4 @@
+
 from setuptools import find_packages, setup
 
 package_name = 'my_first_node'
@@ -22,6 +23,8 @@ setup(
     'console_scripts': [
         'talker = my_first_node.publisher_node:main',
         'listener = my_first_node.subscriber_node:main',
+        'surucu = my_first_node.robot_surucu:main',
     ],
 },
 )
+
